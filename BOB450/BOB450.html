@@ -15,15 +15,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-gray w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="BOB450/BOB450.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">BOB450</a>
-    <a href="bluej3270/bluej3270.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Bluej320</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Game Jam</a>
 
-  </div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("Navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+
+    <div id = "nav-placeholder"></div>
+
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
@@ -36,17 +37,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container w3-purple w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Welcome To The Game Archive</h1>
-  <p class="w3-xlarge">by Kellan(bluej3270) And Rowan(BOB450)</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+  <h1 class="w3-margin w3-jumbo">Welcome To BOB450s Games</h1>
+  <p class="w3-xlarge">Games</p>
+
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>About</h1>
-      <h5 class="w3-padding-32">This website is made for the purposes of having a accessible point to access all of our webgl games that can be play anywhere with a browser and internet. This website will also go over game jams that we are thinking about. This will include themes and such.</h5>
+      <h1>Dream Runner</h1>
+      <h5 class="w3-padding-32">If you were to Mix getting over it and mario. This game was made in a gamejam allong with bluej3270. Wish the theme being hunted</h5>
 <!-- smaller text -->
       <p class="w3-text-grey"></p>
     </div>
