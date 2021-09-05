@@ -152,6 +152,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Colors */
 
 .homecolor,.hover-homecolor:hover{color:#fff!important;background-color:#04100F!important}
+.bobprof,.bobprof-homecolor:hover{color:#000!important;background-color:#37C3B7!important}
+
 
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
