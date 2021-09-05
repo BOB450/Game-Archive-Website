@@ -151,7 +151,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
 
-.homecolor,.hover-homecolor:hover{color:#fff!important;background-color:#04100F!important}
+.homecolor,.hover-homecolor:hover{color:#fff!important;background-color:#000000!important}
 .bobprof,.bobprof-homecolor:hover{color:#000!important;background-color:#37C3B7!important}
 
 
