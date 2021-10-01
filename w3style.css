@@ -36,13 +36,17 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 
 
 /* custom scrollbar */
+
+
 html::-webkit-scrollbar {
   width: 10px;
+  display: none;
+
 }
 
 html::-webkit-scrollbar-track {
   background: rgb(179, 177, 177);
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 html::-webkit-scrollbar-thumb {
